@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Login System</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  
+  <div class="container text-center d-flex justify-content-center p-5">
+        <div class="login-box py-5 d-flex flex-column w-75">
+          <h1 class="my-3">Smart Login System</h1>
+          <input id="nameInput" class="form-control mb-3 bg-transparent w-75 mx-auto rounded-1" type="text" autocomplete="on" placeholder="Enter Your Name">
+          <input id="emailInput" class="form-control mb-3 bg-transparent w-75 mx-auto rounded-1" type="text" autocomplete="on" placeholder="Enter Your Email">
+          <input id="passInput" class="form-control mb-4 bg-transparent w-75 mx-auto rounded-1" type="password" autocomplete="off" placeholder="Enter Your Password">
+          <button onclick="signUp()" class="btn form-control btn-outline-info mb-3 w-75 mx-auto rounded-1">Sign Up</button>
+          <!-- <span class="text-danger ">All Inputs Are Required</span> -->
+          <p id="verify"></p>
+          <p>You have an account <a href="../index.html"> Sign in</a></p>
+          
+        </div>
+  </div>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

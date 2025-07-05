@@ -1,0 +1,43 @@
+body {
+  background-color: #24353F;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #17a2b8;
+}
+
+.navbar, .login-box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) ;
+}
+
+::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+
+input {
+  background-color: transparent !important; 
+  color: white !important;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+  background-color: transparent !important; 
+  color: white !important;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white; 
+}
+
+a:hover {
+  text-decoration: underline;
+}
